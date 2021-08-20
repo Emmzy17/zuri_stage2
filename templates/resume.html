@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title> Resume </title>
+        <style>
+            body{
+               border : 0px; 
+               padding : 0px;
+              }
+          div{
+                  margin : 1em;
+                  padding:1em;
+                  background:green;
+                  font-family: sans-serif;}
+        li{
+            list-style: none;}
+     </style>
+    </head>
+    <body>
+       <div id = "container ">
+        <h1> Emmanuel Adoyi </h1>
+        <h3> Backend Developer </h3>
+        <p> Email : emmanueladjerry@gmail.com</p>
+        <p> Phone: +2348164828761 </p>
+        <a href = 'https://www.github.com/Emmzy17'> Github </a>
+        <h2> About </h2>
+        <p> I am a self taught software engineer and an aspiring fullstack engineer with passion for building applications and bring new innovations into life </p>
+        <h2> Skills </h2>
+        <ul>
+            <li> Flask </li> 
+            <li> Javascript </li>
+            <li> Python </li>   
+        </ul>   
+       <h2> Projects </h2>
+       <ul>
+        <li> Mini Blog </li>
+        <p> Built a simple mini blog with flask</h2>
+        <li> Weather App </li>
+        <p> Built a weather app that will display the weather with respect to your current location
+        </p>               
+       </ul> 
+       <h2> Education </h2>
+       <p> Federal University of Technology, Minna (FUTMINNA)</P>
+       <P> B.Tech Industrial Technology Education (ITE) </p>
+       <h2> Contact Me </h2>
+       <form method = 'POST'action=''>
+		   {{ form.hidden_tag() }}
+           <P>{{ form.name.label }} </P>
+           <P>{{ form.name }} </P>
+            <P>{{ form.email.label }} </P>
+           <P>{{ form.email }} </P>
+            <P>{{ form.subject.label }} </P>
+           <P>{{ form.subject }} </P>
+            <P>{{ form.message.label }} </P>
+           <P>{{ form.message }} </P>
+           <P>{{ form.submit }} </P>
+       </form>
+    </div>     
+</body>
+</html>
