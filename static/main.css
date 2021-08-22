@@ -1,0 +1,21 @@
+
+body {
+    border: 0px;
+    padding: 5em;
+    font-family:  cursive, Courier, monospace;
+}
+
+h2{
+    font-family:  'Pixel', zzzcursive, Courier, monospace;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+}
+.contact-item{
+    margin-left: 3em;
+}
+.email-field{
+    margin-top: 3em;
+}
